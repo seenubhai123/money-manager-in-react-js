@@ -1,0 +1,55 @@
+.money-details-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.your-balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 7px;
+  display: flex;
+  padding: 15px;
+  margin-right: 220px;
+  align-self: center;
+  width: 300px;
+}
+.your-balance-container-2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 7px;
+  display: flex;
+  padding: 15px;
+  margin-right: 220px;
+  align-self: center;
+  width: 300px;
+}
+
+.your-balance-container-3 {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 7px;
+  display: flex;
+  padding: 15px;
+  /* margin-right: 180px; */
+  align-self: center;
+  width: 300px;
+}
+.balance-img {
+  width: 55px;
+  height: 55px;
+  align-self: center;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.your-balance {
+  font-size: 20px;
+  margin: 0px;
+  padding-bottom: 5px;
+}
+.display-amount {
+  font-size: 30px;
+  margin: 0px;
+}

@@ -1,0 +1,105 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.manager-name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  border-radius: 10px;
+}
+.money-manager-span {
+  color: #0b69ff;
+}
+.account-name {
+  font-size: 25px;
+  padding-left: 60px;
+  padding-top: 25px;
+}
+.greeting-para {
+  padding-bottom: 30px;
+  margin: 0px;
+  padding-left: 60px;
+}
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid #cbd5e1;
+  width: 400px;
+  border-radius: 10px;
+  padding-top: 0px;
+}
+.heading {
+  font-size: 25px;
+}
+.amount {
+  font-size: 10px;
+}
+.title {
+  font-size: 10px;
+}
+.type {
+  font-size: 10px;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: #fff;
+  align-self: flex-start;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 10px;
+}
+.title-input {
+  margin-bottom: 10px;
+}
+.amount-input {
+  margin-bottom: 10px;
+}
+.select-type {
+  margin-bottom: 10px;
+  padding: 2px;
+}
+.transaction-details-container {
+  display: flex;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  width: 750px;
+  margin-left: 40px;
+  border-radius: 10px;
+  padding: 30px;
+  padding-top: 0px;
+}
+.history-heading {
+  font-size: 23px;
+}
+.history-headings {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  justify-content: space-around;
+  padding-right: 130px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 27px;
+}
+.title-item {
+  /* padding: 0px; */
+  margin: 0px;
+}
+.history-unorderlist {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}

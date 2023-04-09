@@ -1,0 +1,42 @@
+.transacItem-container {
+  display: flex;
+  /* justify-content: space-around; */
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding: 0px;
+  margin: 0px;
+  height: 28px;
+  align-items: center;
+}
+.history-item {
+  width: 680px;
+}
+.delete {
+  width: 15px;
+}
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.title-css {
+  padding-left: 65px;
+  padding-right: 40px;
+  width: 200px;
+}
+.title-css-2 {
+  padding-left: 50px;
+  padding-right: 40px;
+  width: 200px;
+}
+.title-css-3 {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 200px;
+}
+.income-color {
+  color: green;
+}
+.expense-color {
+  color: red;
+}
